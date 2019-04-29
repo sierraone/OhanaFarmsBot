@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 80;
 
 class WebhookListener {
  listen() {
-   app.get('/GAS', (req, res) => {
+   app.get('/webhook', (req, res) => {
      res.send('Hello');
    });
 
