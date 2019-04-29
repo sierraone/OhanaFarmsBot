@@ -1,5 +1,4 @@
 import { Client } from 'eris';
-const webhookListener = require('webhook_listener.js');
 // Create a Client instance with our bot token.
 const bot = new Client("NTcyMjQwODc4NjU2MDI4Njgz.XMZn-Q.9trK2fvaZs-s0c7mJfTuseAHxIs");//BOT_TOKEN is the Client Secret);
 
